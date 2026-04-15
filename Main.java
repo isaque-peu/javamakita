@@ -1,3 +1,118 @@
+//exercicio 01//
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+//exercicio 02//
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 50; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+//exercicio 03//
+public class Main {
+    public static void main(String[] args) {
+        int numero = 7;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero * i));
+        }
+    }
+}
+//exercicio 04//
+public class Main {
+    public static void main(String[] args) {
+        int soma = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            soma += i;
+        }
+
+        System.out.println("Soma: " + soma);
+    }
+}
+//exeercicio 05//
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        if (a > b) {
+            System.out.println("Maior: " + a);
+        } else {
+            System.out.println("Maior: " + b);
+        }
+    }
+}
+//exercicio 06//
+public class Main {
+    public static void main(String[] args) {
+        int idade = 15;
+
+        if (idade <= 12) {
+            System.out.println("Criança");
+        } else if (idade <= 17) {
+            System.out.println("Adolescente");
+        } else {
+            System.out.println("Adulto");
+        }
+    }
+}
+//exercicio 07//
+public class Main {
+    public static void main(String[] args) {
+        int opcao = 1;
+
+        switch (opcao) {
+            case 1:
+                System.out.println("Cadastrar");
+                break;
+            case 2:
+                System.out.println("Listar");
+                break;
+            case 3:
+                System.out.println("Sair");
+                break;
+            default:
+                System.out.println("Opção inválida");
+        }
+    }
+}
+//exercicico 08//
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+    }
+}
+//exercicio 09//
+public class Main {
+    public static void main(String[] args) {
+        double nota1 = 60;
+        double nota2 = 80;
+
+        double media = (nota1 + nota2) / 2;
+
+        if (media >= 70) {
+            System.out.println("Aprovado");
+        } else if (media >= 50) {
+            System.out.println("Recuperação");
+        } else {
+            System.out.println("Reprovado");
+        }
+
+        System.out.println("Média: " + media);
+    }
+}
+
 //exercicio 10//
 import java.util.Scanner;
 public class Main {
@@ -161,7 +276,7 @@ public class MenuRepeticao {
     }
 }
 
-//exercicio16//
+//exercicio 16//
 public class fatorial{
     public static void main(String[] args){
 
